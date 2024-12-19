@@ -27,10 +27,6 @@ dependencies {
     annotationProcessor(libs.lombok)
     annotationProcessor(libs.spring.boot.configuration.processor)
     testImplementation(libs.spring.boot.starter.test)
-    testImplementation("org.junit.platform:junit-platform-launcher:1.5.2")
-    testImplementation("org.junit.jupiter:junit-jupiter:5.5.2")
-    testImplementation("org.mockito:mockito-core:5.5.0")
-    testImplementation("org.mockito:mockito-junit-jupiter:5.5.0")
 }
 
 // about source and compilation
